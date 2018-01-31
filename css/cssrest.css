@@ -1,0 +1,347 @@
+/* -------------- HEADER ------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Engagement');
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Baumans');
+@import url('https://fonts.googleapis.com/css?family=Neuton');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');   
+
+#map{
+    height: 400px;
+}
+
+.fundoimg{
+    background: url("../img/rest-bg.jpg") no-repeat center;
+    height: 710px;
+	background-size: cover;
+	padding-top: 60px;
+	text-align: center;
+}
+.barras h3:before, .barras h3:after{
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0px 35px 5px 35px;
+    
+   
+                 
+}
+
+.fundoimg{
+    background: url("../img/rest-bg.jpg") no-repeat center;
+    height: 710px;
+	background-size: cover;
+	padding-top: 60px;
+	text-align: center;
+}
+.barras h3:before, .barras h3:after{
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0px 35px 5px 35px;
+    
+   
+                 
+}
+.menunocentro{
+       max-width: 348px;
+       margin: 0 auto;
+      
+}
+.header ul li{
+    display: inline-block; /* deixar reto os menus */
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.header ul li a{
+    font-size: 15px;
+	color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none; /* tirar o traço  */
+    letter-spacing: .1em;
+    padding: 10px 0;
+    transition: all .3s ease;
+}
+.header ul li a:hover{
+    color: #FF5757;
+}
+.bordamenu{
+    text-align: center;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    
+}
+.titulorestaurante{
+    text-align: center;
+    margin-top: 200px;
+    height: 200px;
+}
+.titulorua{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 150px;
+}
+.titulonumero{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.cormenu{
+    background: #313131;
+}
+.barranonumero{ /* ? */
+    content:"";
+	display: block;
+	width: 5px;
+	height: 2px;
+	background: #fff;
+    margin: 14px auto 10px auto;
+    text-align: center;
+}
+.header h3:left, header h3:right{
+    content:"";
+	display: block;
+	width: 100px;
+	height: 2px;
+	background: #FFFFFF;
+    margin: 14px auto 10px auto;
+    text-align: center;
+
+}
+
+/* ----------------- aside -------------------- */
+
+section h1:after, section h1:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #525252;
+    margin: 14px auto 10px auto;
+    text-align: center;
+
+}
+
+/* -----------------------MENU----------------------------------- */
+
+    
+.fundomenu{
+    background: #303030;
+    
+}
+.cormenu{
+    color: #525252;
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+.titulomenu{
+    font-family: 'Neuton', serif;
+    font-size: 55px; 
+    color: #FF5353;
+    text-align: right;
+    margin-right: 15%;
+    
+        
+    /* text-align: right;
+    float: right; */
+    
+}
+.barraencima{
+    border-top: 1px dashed #fff ;
+
+}
+.nomeprato{
+    font-family: 'Baumans', cursive;
+    font-size: 20px; 
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.descricaoprato{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 25px; 
+    color: #8A8A8A;
+   
+}
+.barrascardapio li{
+    /* content:""; */
+	/* display: block;
+	width: 100%;
+	height: 1px; */
+	/* background: #fff; */
+    /* margin: 14px auto 10px auto; */
+   /*  text-align: center; */ /* ----------eu tirei ---------- */
+    border-bottom: 1px dashed #fff ;
+}
+.cifrao{
+    font-family: 'Engagement', cursive;
+    font-size: 15px;
+    float: right;
+}
+.preco{
+    font-family: 'Sniglet', cursive;
+    float: right;
+}
+.espacomenu p, li{
+    text-align: center;
+
+}
+.bolinha{
+    padding: 0px 0px 0px 24px;
+    color: #fff;
+}
+/* ------------------------------------------------------- */
+.fundofooter{
+    background: #181818;
+	text-align: center;
+}
+.footer ul li{
+    display: inline-block; /* deixar reto os menus */
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.footer ul li a{
+    font-size: 13px;
+	color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none; /* tirar o traço  */
+    letter-spacing: .1em;
+    padding: 10px 0;
+    transition: all .3s ease;
+}
+.footer ul li a:hover{
+    color: #FF5757;
+}
+/* ==================================== SOBRE ================================== */
+.fundosobre{
+    background: #303030;
+}
+.h1sobre{
+    font-family: Helvetica;
+    font-size: 60px;
+    color: #525252;
+    text-align: center;
+}
+.barrasobre{
+    content:"";
+	display: block;
+	width: 1000px;
+	height: 2px;
+	background: #525252;
+    margin: 14px auto 10px auto;
+    text-align: center;
+}
+.imgfachada{
+    
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+   /*  margin: 0px 450px; /* mover a imagem de um lado para o outro */
+}
+.titulosobre{
+    padding: 0px 0px 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px; 
+    color: #FF5353;
+}
+.textosobre{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 17px; 
+    color: #FFFFFF;
+}
+.textolugar{
+    right: 10px;
+}
+/* ============================= Contato ============================ */
+.fundocontato{
+    background: #303030;
+    
+}
+.imgcontato{
+    width: 100%;
+   
+}
+.titulocontato{
+    font-family: sans-serif;
+    font-size: 30px; 
+    color: #FF5353;
+    
+}
+.textocontato{
+    font-family: Helvetica;
+    font-size: 20px; 
+    color: #FFFFFF;
+    text-align: left
+}
+.tresmenus{
+    background: #313131;
+   
+    
+    position: absolute;/* cola la em cima da pagina*/
+    top: 0px;
+    /* margin-left: 650px; */
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.tresmenusborda ul{
+    border: 3px solid rgb(0, 0, 0);
+	display: block;
+	text-decoration: none;
+    padding: 10px;
+    
+    /* border: 4px solid #1D1D1D;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #525252; */
+}
+@media screen and (max-width: 400px) { /* ate no maximo 600px */
+
+    .barras h3:before, .barras h3:after{
+       
+        width: 50px;       
+       
+                     
+    }
+
+
+}
+
+@media screen and (max-width: 400px) { /* ate no maximo 600px */
+    
+    .fundoimg{
+        background: url("../img/rest-celular-bg.jpg") no-repeat center;
+        height: 710px;
+        background-size: cover;
+        padding-top: 20px;
+        text-align: center;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 1000px) { /* ate no maximo 600px */
+        
+        .fundoimg{
+            background: url("../img/rest-tablet-bg.jpg") no-repeat center;
+            height: 710px;
+            background-size: cover;
+            padding-top: 60px;
+            text-align: center;
+            
+        }
+        
+        
+}

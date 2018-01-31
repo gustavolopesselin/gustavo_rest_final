@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Administração</title>
+</head>
+<body>
+    
+    <header class="headeradm">
+         <div>
+            <h1 class="col-xs-6 col-sm-6 col-md-6">CADASTRO USUARIO</h1>
+            <ul class="col-xs-6 col-sm-6 col-md-6">
+                    <li><a href="form.html">Voltar</a></li>
+             </ul>
+        </div>
+    </header>
+    <aside class="asideadm">
+        <div class="cadastro">
+                <form class="form-horizontal">
+                        <fieldset>
+                                                                        
+                        <!-- Text input-->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="txt_cadastronome">Nome</label>  
+                          <div class="col-md-6">
+                          <input id="txt_cadastronome" name="txt_cadastronome" type="text" placeholder="Digite seu nome para cadastro" class="form-control input-md" required="">
+                            
+                          </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="txt_cadastrosenha">Senha</label>  
+                          <div class="col-md-6">
+                          <input id="txt_cadastrosenha" name="txt_cadastrosenha" type="text" placeholder="Digite sua senha para login" class="form-control input-md" required="">
+                            
+                          </div>
+                        </div>
+                        
+                        <!-- Multiple Radios -->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="txt_cadastrotipousuario">Tipo Usuario</label>
+                          <div class="col-md-4">
+                          <div class="radio">
+                            <label for="txt_cadastrotipousuario-0">
+                              <input type="radio" name="txt_cadastrotipousuario" id="txt_cadastrotipousuario-0" value="1" checked="checked">
+                              Cliente
+                            </label>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="txt_cadastroemail">E-Mail</label>  
+                          <div class="col-md-6">
+                          <input id="txt_cadastroemail" name="txt_cadastroemail" type="text" placeholder="Digite um email valido" class="form-control input-md" required="">
+                            
+                          </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="txt_cadastrotelefone">Telefone</label>  
+                          <div class="col-md-6">
+                          <input id="txt_cadastrotelefone" name="txt_cadastrotelefone" type="text" placeholder="Digite seu numero com DDD" class="form-control input-md" required="">
+                            
+                          </div>
+                        </div>
+                        
+                        <!-- Button -->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="btn_cadastrar"></label>
+                          <div class="col-md-4">
+                            <button id="btn_cadastrar" name="btn_cadastrar" class="btn btn-primary">Cadastrar</button>
+                          </div>
+                        </div>
+                        
+                        </fieldset>
+                        </form>
+
+
+        </div>
+
+
+
+    </aside>
+    
+</body>
+</html>

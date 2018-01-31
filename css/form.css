@@ -1,0 +1,129 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.headerlogin{
+    top:0;
+    position:fixed;
+    width: 100%;
+    padding: 15px 0;
+    height: 300px;
+    background: #303030;
+    text-align: center;
+    z-index: 100;
+}
+.headerlogin ul li a{
+    
+    padding: 8px;
+}
+.headerlogin ul li a{
+    font-family: Helvetica; 
+    font-size: 30px;
+    color: #ffffff;
+     
+}
+.headerlogin ul li a:hover{
+    color:#FF4F4F;
+    text-decoration: none;
+
+}
+.headerlogin img{
+    margin-top: 20px;
+    border: 1px solid #FFFFFF ;
+    padding: 20px;
+}
+aside{
+    margin-top: 300px;
+    height: 605px; /* tamanho para baixo */
+    background: #303030;
+}
+.asideborda{
+    border: 1px solid #FFFFFF ;
+    
+}
+aside h3{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    color: #ffffff;
+}
+aside label{
+    font-family: Arial;
+    font-size: 20px;
+    color: #ffffff;
+}
+aside button{
+}
+.botaostilo{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== ADM, CONTROLEUSU,CARDAPIO, CADASTROUSUARIO =============== */
+.headeradm{
+    padding-top: 20px;
+    top:0;    
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background: #303030;
+}
+.headeradm h1{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.headeradm ul li{
+    display:inline-block;
+	margin-left: 25px;
+	margin-top:20px;
+
+}
+.headeradm ul li a{
+    color:#FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .1em;
+	padding: 10px 0;
+	transition: all .3s ease;
+}
+.headeradm ul li a:hover{
+    color: #FF5353;
+}
+.asideadm{
+    margin-top: 100px;
+    height: 750px; /* tamanho para baixo */
+    background: #C9C9C9;
+}
+
+
+/* ============== Cadastro Usuario =========== */
+.cadastro{
+    padding-top: 30px;
+    
+}
+.cadastro label{
+    font-size: 20px;
+    font-family: Arial;
+    color: #000000
+}

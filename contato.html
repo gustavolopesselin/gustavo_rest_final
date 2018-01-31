@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Contato</title>
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/cssrest.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+
+		<script>
+		function initMap() {
+        var uluru = {lat: -22.9846374, lng: -43.1980123};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+		</script>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJWJ-LmVF6zKVPh3PYSXfU-_wMt3XUQu8&callback=initMap"></script>
+
+	</head>
+	<body>
+			<header class="row fundoimg header barras">
+					<div class="container col-xs-12 col-ms-12 col-md-12"> <!-- menunocentro -->
+						<nav class="tresmenusborda  menunocentro">
+							<ul class="tresmenus">
+								<li><a href="index.html"> Menu</a></li>
+								<i class="fa fa-circle bolinha"></i>
+								<li><a href="sobre.html">Sobre</a></li>
+								<i class="fa fa-circle bolinha"></i>
+								<li><a href="contato.html">Contato</a></li>
+								<i class="fa fa-circle bolinha"></i>
+								<li><a href="form.html">Logar</a></li>
+							</ul>
+						</nav>
+					</div>
+					<img class="titulorestaurante" src="img/rest.png" class="img-rounded" alt="Logo">
+					<h2 class="titulorua">RUA MARECHAL 29-COPACABANA-RJ</h2>
+					<h3 class="titulonumero">2422-9201</h3>
+					
+				</header>
+		</header>
+				<section class="row fundocontato contato barrascardapio">
+					<div class="container">
+						<h1 class="h1sobre">Contato</h1>
+						
+						<div id="map">
+								
+						</div>
+							<div>
+								<ul class="col-xs-12 col-sm-12 col-md-4">
+									<h4 class="titulocontato">Dados</h4>
+									<li class="textocontato barraencima">21 2422-9999</li>
+									<li class="textocontato">CONTATO@REST.COM</li>
+									<li class="textocontato">FACEBOOK.COM/REST/</li>
+								</ul>
+								<ul class="col-xs-12 col-sm-12 col-md-4">
+									<h4 class="titulocontato">Hórarios</h4>
+									<li class="textocontato barraencima">Segunda a Sexta:10 as 23</li>
+									<li class="textocontato">Sabado:14 as 23</li>
+									<li class="textocontato">Domingo:14 as 22</li>
+									
+								</ul>
+								<ul class="col-xs-12 col-sm-12 col-md-4">
+									<h4 class="titulocontato">Endereço</h4>
+									<li class="textocontato barraencima">Rua: Marechal, 29</li>
+									<li class="textocontato">Copacabana-Rio de Janeiro</li>
+									<li class="textocontato">Brasil-Terra-Via Lactea</li>
+								</ul>
+							</div>
+					</div>
+				</section>
+
+				<footer class="row fundofooter footer">
+			<div class="container col-xs-12 col-ms-12 col-md-12">
+				<ul>
+					<li><a href="index.html"> Menu</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="form.html">Logar</a></li>
+				</ul>
+			</div>
+			<h4>REST®2015.ALGUNS DIREITOS RESERVADOS</h4>
+		</footer>
+	</body>
+</html>
